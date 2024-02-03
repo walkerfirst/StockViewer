@@ -1,0 +1,51 @@
+﻿/* adminbuy.cn 做最好的织梦模板 */
+@charset "utf-8";
+/* CSS Document */
+* { padding:0;margin:0;list-style: none; color: #666; font-family: "微软雅黑","Microsoft Yahei"; font-size: 14px;}
+a{ color: #333; text-decoration: none; font-size: 14px;}
+img{border:0}
+
+.head{ height: 60px; background: #393939}
+.head .menu{ width: 1100px; margin: 0 auto}
+.head .menu h1{ background: url(../images/logo.png) no-repeat; width: 180px; height: 60px; text-indent: -999px; float: left}
+.head .menu h1 a{ display:block; height:60px;}
+.head .menu ul{overflow: hidden; float: right; margin-right: 30px}
+.head .menu ul li{float: left;  text-align: center}
+.head .menu ul li a{ color: #fff; font-size: 14px; display: block;width: 140px; height: 60px;line-height: 60px; border-right: 1px solid #464646; transition: all 1s}
+.head .menu ul li a:hover{ background:#202020;}
+.menu ul li div{ background: #333; position: absolute; top:60px; display: block;
+				transform: scale(0);
+				-webkit-transform: scale(0);
+				-moz-transform: scale(0);
+				-ms-transform: scale(0);
+				-o-transform: scale(0);
+				transform-origin:top cente;
+				-webkit-transform-origin:top center;
+				-moz-transform-origin:top center;
+				-ms-transform-origin:top center;
+				-o-transform-origin:top center;
+				transition: all 1s; -webkit-transition: all 1s;-moz-transition: all 1s;-ms-transition: all 1s;-o-transition: all 1s;
+				}
+.menu ul li:hover div{ transform: scale(1);}
+
+.head .menu .search{ float: right; width: 300px; background: #fff; margin-top: 15px}
+.head .menu .search .k{ width: 265px; height: 30px; border: 0; float: left; padding-left:5px}
+.head .menu .search .t{ width: 30px; height: 30px; border: 0; background: url(../images/ss.png) no-repeat center; background-size: 16px; margin-left: 0; text-indent: -999px; cursor: pointer}
+
+.content{ width: 1080px; margin: 50px auto}
+.content h1{font-size: 28px; text-align: center; padding: 10px 0 20px;}
+.content ul{ overflow: hidden;}
+.content ul li{float: left; width: 120px; text-align: center;  height: 120px; margin-bottom: 30px; }
+.content ul li a{ display: block;border-radius: 10px;transition: all 1s; height: 80px; padding-top: 40px;}
+.content ul li img{ margin-bottom: 10px}
+.content ul li a:hover{ background: #d1d1d1; }
+.content ul li p{ font-size: 12px}
+.content ul li .zong{ background: #d1d1d1; height: 120px; padding: 0; line-height: 120px}
+
+.foot{ height: 60px; background: #393939; text-align: center; line-height: 60px;  }
+.foot p{color:#999; font-size:12px}
+
+.pages {padding: 30px 0 30px;text-align: center}
+.pages li {display: inline}
+.pages li.thisclass, .pages a:hover{padding: 3px 8px; border: 1px solid #333;	background: #333;color: #fff;text-decoration: none;border-radius:3px}
+.pages a{padding: 3px 8px;border: 1px solid #CCC;background: #fff;color: #A4A4A4;line-height: 18px; border-radius:3px}
